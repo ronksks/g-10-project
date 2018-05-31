@@ -7,9 +7,7 @@ import Student.student;
 import lecturer.lecturer;
 
 
-//dasdasdasdasd
-//asdasdasdasdasdasdasd
-//abc
+
 /**
  * 
  *	Entity Class Contain department Details 
