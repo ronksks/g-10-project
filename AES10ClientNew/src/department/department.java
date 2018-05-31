@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import Student.student;
 import lecturer.lecturer;
 
-
+//abc
 /**
  * 
  *	Entity Class Contain department Details 
