@@ -17,7 +17,7 @@
             <Button fx:id="btnConfig" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#showConfigurationForm" text="s" />
             <PasswordField fx:id="txtPassword" layoutX="88.0" layoutY="127.0" />
             <TextField fx:id="txtUser" layoutX="88.0" layoutY="50.0" />
-            <Text layoutX="25.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="fafafaddfggfafdddaf" />
+            <Text layoutX="25.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="fafafadffffdfggfafdddaf" />
          </children>
       </AnchorPane>
       <Button fx:id="btnLogin" layoutX="128.0" layoutY="193.0" mnemonicParsing="false" onAction="#performLogin" text="Login" />
