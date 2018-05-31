@@ -6,8 +6,12 @@ import java.util.ArrayList;
 import Student.student;
 import lecturer.lecturer;
 
+<<<<<<< HEAD
 //dasdasdasdasd
 //asdasdasdasdasdasdasd
+=======
+//abc
+>>>>>>> refs/remotes/origin/master
 /**
  * 
  *	Entity Class Contain department Details 
