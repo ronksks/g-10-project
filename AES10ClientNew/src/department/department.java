@@ -6,7 +6,12 @@ import java.util.ArrayList;
 import Student.student;
 import lecturer.lecturer;
 
+<<<<<<< HEAD
 //abc
+=======
+/// aviv is a dushbag
+//vb
+>>>>>>> refs/remotes/origin/master
 /**
  * 
  *	Entity Class Contain department Details 
