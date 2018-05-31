@@ -7,7 +7,10 @@ import Student.student;
 import lecturer.lecturer;
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 
 /**
  * 
