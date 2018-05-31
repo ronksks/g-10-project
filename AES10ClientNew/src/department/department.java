@@ -7,6 +7,7 @@ import Student.student;
 import lecturer.lecturer;
 
 
+<<<<<<< HEAD
 
 //dasdasdasdasd
 //asdasdasdasdasdasdasd
@@ -16,6 +17,8 @@ import lecturer.lecturer;
 //ilovebigbuts
 
 
+=======
+>>>>>>> refs/remotes/origin/master
 /**
  * 
  *	Entity Class Contain department Details 
