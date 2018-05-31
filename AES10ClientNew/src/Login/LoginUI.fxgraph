@@ -1,0 +1,8 @@
+package Login
+
+import javafx.scene.control.*
+import java.lang.*
+import javafx.scene.layout.*
+import javafx.scene.layout.AnchorPane
+
+component LoginUI controlledby Login.LoginController{AnchorPane{prefHeight:264.0,prefWidth:321.0,children:[AnchorPane{prefHeight:264.0,prefWidth:321.0,children:[Button id btnConfig{layoutX:14.0,layoutY:14.0,mnemonicParsing:false,onAction:controllermethod showConfigurationForm,text:"s"},Label{layoutX:24.0,layoutY:65.0,text:"id:"},Label{layoutX:15.0,layoutY:132.0,text:"password:"},PasswordField id txtPassword{layoutX:88.0,layoutY:127.0},TextField id txtUser{layoutX:88.0,layoutY:50.0},Label{layoutX:14.0,layoutY:66.0,text:"id:"},Label{layoutX:13.0,layoutY:132.0,text:"password:"},PasswordField id txtPassword{layoutX:87.0,layoutY:127.0},TextField id txtUser{layoutX:87.0,layoutY:61.0}]},Button id btnLogin{layoutX:128.0,layoutY:193.0,mnemonicParsing:false,onAction:controllermethod performLogin,text:"Login"}]}}
