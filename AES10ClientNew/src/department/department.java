@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import Student.student;
 import lecturer.lecturer;
 
-
+//dasdasdasdasd
+//asdasdasdasdasdasdasd
 /**
  * 
  *	Entity Class Contain department Details 
