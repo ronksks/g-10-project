@@ -8,7 +8,7 @@ import lecturer.lecturer;
 
 //abc
 /// aviv is a dushbag
-//vb
+// LOLINGGGGGG
 /**
  * 
  *	Entity Class Contain department Details 
