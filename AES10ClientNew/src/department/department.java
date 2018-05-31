@@ -7,6 +7,7 @@ import Student.student;
 import lecturer.lecturer;
 
 /// aviv is a dushbag
+//vb
 /**
  * 
  *	Entity Class Contain department Details 
