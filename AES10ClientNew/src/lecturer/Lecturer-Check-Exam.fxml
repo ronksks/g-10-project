@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lecturer.CheckExamController">
+  <children>
+    <AnchorPane prefHeight="369.0" prefWidth="483.0">
+      <children>
+        <Text fill="#0066ff" layoutX="252.0" layoutY="33.0" scaleX="2.9929938488775205" scaleY="2.002447381302007" strokeType="OUTSIDE" strokeWidth="0.0" text="Check Exam" wrappingWidth="103.54679521918297">
+          <font>
+            <Font name="System Bold" size="10.0" />
+          </font>
+        </Text>
+            <Text layoutX="34.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select the course:" />
+            <ComboBox fx:id="checkCourseCombo" layoutX="248.0" layoutY="64.0" prefWidth="150.0" promptText="course" />
+            <Text layoutX="34.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select the student:" />
+            <ComboBox fx:id="checkStudentCombo" layoutX="248.0" layoutY="99.0" prefWidth="150.0" promptText="student" />
+            <Text layoutX="34.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select the exam:" />
+            <ComboBox fx:id="checkExamCombo" layoutX="248.0" layoutY="135.0" prefWidth="150.0" promptText="exam" />
+            <TextField fx:id="CurrentGrade" layoutX="249.0" layoutY="185.0" text="Current Grade" />
+            <Text layoutX="34.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The current exam grade is :" />
+            <TextArea fx:id="GradeChangeReasons" layoutX="98.0" layoutY="220.0" prefHeight="55.0" prefWidth="360.0" text="Please write your reasons.&#10;&#10;" />
+            <Text layoutX="23.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reasons for grade change :" wrappingWidth="57.53125" />
+            <Text layoutX="34.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter the new grade :" />
+            <TextField fx:id="newGradeField" layoutX="249.0" layoutY="293.0" text="New Grade" />
+            <Button fx:id="updateGradeBtn" layoutX="384.0" layoutY="330.0" mnemonicParsing="false" text="Update" />
+            <Button fx:id="ViewExamBtn" layoutX="212.0" layoutY="331.0" mnemonicParsing="false" text="View exam" />
+            <Button id="getReports" fx:id="BackBtn3" layoutX="40.0" layoutY="331.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="81.0" text="Back" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>
