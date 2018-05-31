@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import Student.student;
 import lecturer.lecturer;
 
-//abc
-/// aviv is a dushbag
-// LOLINGGGGGG
+
 /**
  * 
  *	Entity Class Contain department Details 
